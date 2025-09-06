@@ -34,7 +34,7 @@ const App = () => {
                 <span className='hamm'></span>
 
             </div>
-            <button onClick={toggleTheme}>CHANGE THEME</button>
+         
         </nav>
     )
 } }
