@@ -41,3 +41,12 @@ nav{
 .HAM{
   margin-right: 18px;
 }
+.hamm-light {
+  background-color: rgb(247, 242, 242);
+  color: black;
+}
+
+.hamm-dark {
+  background-color: #222;
+  color: white;
+}

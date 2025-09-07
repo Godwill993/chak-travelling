@@ -29,9 +29,9 @@ function Nav(){
                 <li>ARGENCIES</li>
             </div>
             <div className="HAM">
-                <span className='hamm'></span>
-                <span className='hamm'></span>
-                <span className='hamm'></span>
+                <span className={`hamm ${theme === 'dark' ? 'card-dark' : 'card-light'}`}></span>
+                <span className={`hamm ${theme === 'dark' ? 'card-dark' : 'card-light'}`}></span>
+                <span className={`hamm ${theme === 'dark' ? 'card-dark' : 'card-light'}`}></span>
 
             </div>
             <div>
