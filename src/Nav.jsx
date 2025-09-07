@@ -3,18 +3,18 @@ import './Nav.css'
 import React, { useEffect, useState } from 'react';
 
 function Nav(){
-const App = () => {
-  const [theme, setTheme] = useState('light'); // default is light
+     const [theme, setTheme] = useState('light'); // default is light
+    
+      const toggleTheme = () => {
+        const newTheme = theme === 'light' ? 'dark' : 'light';
+        setTheme(newTheme);
+      };
+    
+      useEffect(() => {
+        document.body.className = ''; // clear any existing classes
+        document.body.classList.add(`${theme}-mode`);
+      }, [theme]);
 
-  const toggleTheme = () => {
-    const newTheme = theme === 'light' ? 'dark' : 'light';
-    setTheme(newTheme);
-  };
-
-  useEffect(() => {
-    document.body.className = ''; // clear any existing classes
-    document.body.classList.add(`${theme}-mode`);
-  }, [theme]);
 
 
 
@@ -34,9 +34,16 @@ const App = () => {
                 <span className='hamm'></span>
 
             </div>
+            <div>
+     
+      <button onClick={toggleTheme}>change StrictMode
+        
+      </button>
+    </div>
          
         </nav>
+
     )
-} }
+} 
 
 export default Nav;
