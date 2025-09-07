@@ -2,10 +2,9 @@
 
 nav{
   display: flex;
-  position:fixed;
+  position:sticky;
   top:0;
-  left: 0;
-  right: 0;
+
   justify-content: space-between;
   align-items: center;
   width: 100%;
@@ -26,8 +25,13 @@ nav{
  margin-left:12px;
 }
 .hamm{
-
-
+  background-color: rgb(20, 19, 19);
+  height: 6px;
+  width: 6px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4px;
+  border-radius: 3px;
 
 }
 .nav-links li{
@@ -36,22 +40,4 @@ nav{
 .HAM{
   margin-right: 18px;
 }
-.hamm-light {
-  background-color: rgb(247, 242, 242);
-    height: 4px;
-  width: 25px;
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 4px;
-  border-radius: 2px;
-}
 
-.hamm-dark {
-  background-color: #222;
-  height: 4px;
-  width: 25px;
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 4px;
-  border-radius: 2px;
-}

@@ -29,29 +29,31 @@ function Nav(){
                 <li>ARGENCIES</li>
             </div>
             <div className="HAM">
-                <span   style={{
-    backgroundColor: theme === 'dark' ? '#222' : '#fff',
+                <span className='hamm'  style={{
+    backgroundColor: theme === 'dark' ? '#fff' : '#222',
     
   }}
 ></span>
-                <span   style={{
-    backgroundColor: theme === 'dark' ? '#222' : '#fff',
+                <span  className='hamm'  style={{
+    backgroundColor: theme === 'dark' ? '#fff' : '#222',
   
   }}
 ></span>
-                <span   style={{
-    backgroundColor: theme === 'dark' ? '#222' : '#fff',
+                <span  className='hamm'  style={{
+    backgroundColor: theme === 'dark' ? '#fff' : '#222',
     
   }}
 ></span>
 
             </div>
-            <div>
+            <div className="jtc">
+                <div className='system-mode'>
      
-      <button onClick={toggleTheme}>change StrictMode
-        
-      </button>
+      <button onClick={toggleTheme}>change StrictMode </button>
+      
     </div>
+            </div>
+            
          
         </nav>
 

@@ -1,4 +1,8 @@
-/* index.css or App.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body.light-mode {
   background-color: #ffffff;
   color: #000000;
@@ -7,7 +11,7 @@ body.light-mode {
 body.dark-mode {
   background-color: #121212;
   color: #ffffff;
-  
+
 }
 
 /* Optional: transition for smooth toggle */
