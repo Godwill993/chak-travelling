@@ -11,7 +11,7 @@ function Nav(){
       };
     
       useEffect(() => {
-        document.body.className = ''; // clear any existing classes
+        document.body.className = ''; // clear any existing classe
         document.body.classList.add(`${theme}-mode`);
       }, [theme]);
 
