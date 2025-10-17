@@ -24,29 +24,14 @@ function Nav(){
             <img className='logo' src="/src/assets/CHAK-LOGO.png" alt="" />
             <div className="nav-links">
                 <li>HOME</li>
-                <li>SERVICES</li>
-                <li>CARGO</li>
-                <li>ARGENCIES</li>
+                <li>Book Trip</li>
+                <li>Send Goods</li>
+                <li>Tourism</li>
+                <li>Track</li>
+                <li>Agencies</li>
             </div>
-            <div className="HAM">
-                <span className='hamm'  style={{
-    backgroundColor: theme === 'dark' ? '#fff' : '#222',
     
-  }}
-></span>
-                <span  className='hamm'  style={{
-    backgroundColor: theme === 'dark' ? '#fff' : '#222',
-  
-  }}
-></span>
-                <span  className='hamm'  style={{
-    backgroundColor: theme === 'dark' ? '#fff' : '#222',
-    
-  }}
-></span>
-
-            </div>
-            <div className="jtc">
+            <div className="utility-tools">
                 <div className='system-mode'>
      
       <button onClick={toggleTheme}>change StrictMode </button>

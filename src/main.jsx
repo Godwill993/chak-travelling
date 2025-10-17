@@ -8,8 +8,8 @@ import FLIP from './FLIP.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Nav/>
-    <FLIP/>
-    <textarea name="" id=""><button>send</button></textarea>
+  
+    
   
   </StrictMode>
 )
