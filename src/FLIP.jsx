@@ -9,7 +9,7 @@ import React from "react";
 
 export default function FlippableCard({
   title = "Title",
-  children,
+  children ,
   width = "320px",
   height = "200px",
   className = "",
@@ -18,6 +18,7 @@ export default function FlippableCard({
     width,
     height,
   };
+
 
   return (
     <div
@@ -100,7 +101,7 @@ export default function FlippableCard({
         }
 
         .flippable-card-content {
-          width: 100%;
+          width: 100%; 
           height: 100%;
           overflow: auto;
         }

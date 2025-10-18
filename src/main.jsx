@@ -9,7 +9,7 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Nav/>
   
-    
+    <FLIP></FLIP>
   
   </StrictMode>
 )

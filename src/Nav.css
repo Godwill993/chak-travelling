@@ -20,6 +20,16 @@ nav{
   gap: 70px
 
 }
+.utility-tools{
+  display: flex;
+  gap: 3px;
+}
+.user-profile-pic{
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+
+}
 .logo{
  width: 120px;
  margin-left:12px;
