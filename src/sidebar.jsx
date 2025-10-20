@@ -50,7 +50,8 @@ export default function DTTMSDashboard() {
           </div>
         </div>
         <div className="dashboard">
-        <FlippableCard title="" width="400px" height="250px"></FlippableCard>
+        <FlippableCard title="my first flipable card" width="400px" height="250px"></FlippableCard>\
+        <FlippableCard title="how are you" width="400px" height="250px"></FlippableCard>
         
 
         </div>
