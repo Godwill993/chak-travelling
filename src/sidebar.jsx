@@ -53,8 +53,7 @@ export default function DTTMSDashboard() {
         <div style={styles.dashboard}>
           <h1>Welcome to DTTMS</h1>
           <p>
-            Manage your travels, send goods, and explore tourism destinations — 
-            all in one platform. Use the sidebar to navigate.
+            
           </p>
         </div>
       </div>

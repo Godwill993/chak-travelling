@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 
 function Nav() {
   const [theme, setTheme] = useState("light"); // default is light
-  const userName = "LENZ";
+ 
 
   const toggleTheme = () => {
     const newTheme = theme === "light" ? "dark" : "light";
@@ -31,7 +31,7 @@ function Nav() {
         <button onClick={toggleTheme}>change StrictMode </button>
         <div className="user-profile">
       
-          <p>{userName}</p>
+         
         </div>
       </div>
     </nav>
