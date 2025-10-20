@@ -24,6 +24,7 @@ export default function DTTMSDashboard() {
           <li style={styles.menuItem}><FaBell /> {!isCollapsed && <span>Notifications</span>}</li>
           <li style={styles.menuItem}><FaQuestionCircle /> {!isCollapsed && <span>Help & Support</span>}</li>
           <li style={styles.menuItem}><FaCog /> {!isCollapsed && <span>Settings</span>}</li>
+          
         </ul>
 
         <div style={styles.logout}>
