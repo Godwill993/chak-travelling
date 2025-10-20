@@ -11,7 +11,7 @@ export default function DTTMSDashboard() {
       {/* === SIDEBAR === */}
       <div style={{ ...styles.sidebar, width: isCollapsed ? "70px" : "240px" }}>
         <div style={styles.sidebarHeader}>
-          {!isCollapsed && <h2 style={styles.logo}>DTTMS</h2>}
+          {!isCollapsed &&  <img className="logo" src="/src/assets/CHAK-LOGO.png" alt="" />}
           <FaBars style={styles.toggleBtn} onClick={toggleSidebar} />
         </div>
 

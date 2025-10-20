@@ -30,7 +30,7 @@ function Nav() {
       <div className="utility-tools">
         <button onClick={toggleTheme}>change StrictMode </button>
         <div className="user-profile">
-          <img className="user-profile-pic" src="/src/assets/PXL_20250615_101901360.MP~2.png" alt="profile" />
+      
           <p>{userName}</p>
         </div>
       </div>
