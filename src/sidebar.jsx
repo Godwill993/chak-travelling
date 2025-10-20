@@ -49,13 +49,7 @@ export default function DTTMSDashboard() {
           </div>
         </div>
 
-        {/* === DASHBOARD CONTENT === */}
-        <div style={styles.dashboard}>
-          <h1>Welcome to DTTMS</h1>
-          <p>
-            
-          </p>
-        </div>
+ 
       </div>
     </div>
   );
@@ -71,7 +65,7 @@ const styles = {
     margin: 0,
   },
   sidebar: {
-    backgroundColor: "#1e293b",
+    backgroundColor: "#0d5ea1ff",
     color: "white",
     height: "100vh",
     display: "flex",
@@ -88,7 +82,7 @@ const styles = {
     justifyContent: "space-between",
     padding: "15px",
     background: "#0f172a",
-    borderBottom: "1px solid #334155",
+    borderBottom: "1px solid #0d5ea1ff",
   },
   logo: {
     margin: 0,

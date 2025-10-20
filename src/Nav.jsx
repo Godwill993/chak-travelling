@@ -17,7 +17,7 @@ function Nav() {
 
   return (
     <nav>
-      <img className="logo" src="/src/assets/CHAK-LOGO.png" alt="" />
+     
       <div className="nav-links">
         <li>HOME</li>
         <li>Book Trip</li>

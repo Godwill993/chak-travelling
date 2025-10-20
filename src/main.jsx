@@ -10,8 +10,7 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Nav/>
 <DTTMSDashboard/>
-  
-    <FLIP></FLIP>
+   <FLIP></FLIP>
   
   </StrictMode>
 )
