@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FaBars, FaBus, FaBox, FaMapMarkedAlt, FaWallet, FaBell, FaCog, FaSignOutAlt, FaQuestionCircle, FaHome, FaSearch, FaUserCircle } from "react-icons/fa";
-
+import FlippableCard from "./FLIP.jsx";  
 export default function DTTMSDashboard() {
   const [isCollapsed, setIsCollapsed] = useState(false);
 
@@ -48,6 +48,11 @@ export default function DTTMSDashboard() {
             <FaUserCircle style={styles.navIcon} />
           </div>
         </div>
+        <div className="dashboard">
+        <FlippableCard title="" width="400px" height="250px"></FlippableCard>
+        
+
+        </div>
 
  
       </div>
@@ -65,7 +70,7 @@ const styles = {
     margin: 0,
   },
   sidebar: {
-    backgroundColor: "#0d5ea1ff",
+    backgroundColor: "#4f6d9dff",
     color: "white",
     height: "100vh",
     display: "flex",
@@ -82,7 +87,7 @@ const styles = {
     justifyContent: "space-between",
     padding: "15px",
     background: "#0f172a",
-    borderBottom: "1px solid #0d5ea1ff",
+    borderBottom: "1px solid #334155",
   },
   logo: {
     margin: 0,
