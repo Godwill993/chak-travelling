@@ -43,6 +43,7 @@ export default function FlippableCard({
           perspective: 1000px;
           cursor: pointer;
           margin: 1rem;
+         
           display: inline-block;
           outline: none; /* focus outline handled below for accessibility */
         }
