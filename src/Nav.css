@@ -44,6 +44,9 @@ nav{
   border-radius: 3px;
 
 }
+.push{
+  width: 100px;
+}
 .nav-links li{
   list-style: none;
 }
