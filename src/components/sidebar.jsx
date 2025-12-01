@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaBus, FaBox, FaMapMarkedAlt, FaWallet, FaBell, FaCog, FaSignOutAlt, FaQuestionCircle, FaHome, FaSearch, FaUserCircle } from "react-icons/fa";
-import FlippableCard from "./FLIP.jsx";  
+import FlippableCard from "./FLIP.jsx"; 
+import "../styles/dashB.css" 
 export default function DTTMSDashboard() {
   const [isCollapsed, setIsCollapsed] = useState(false);
 
@@ -11,7 +12,7 @@ export default function DTTMSDashboard() {
       {/* === SIDEBAR === */}
       <div style={{ ...styles.sidebar, width: isCollapsed ? "70px" : "240px" }}>
         <div style={styles.sidebarHeader}>
-          {!isCollapsed &&  <img className="logo" src="/src/assets/CHAK-LOGO.png" alt="" />}
+          
           <FaBars style={styles.toggleBtn} onClick={toggleSidebar} />
         </div>
 
@@ -98,7 +99,9 @@ const styles = {
   logo: {
     margin: 0,
     fontSize: "20px",
+  
   },
+  
   toggleBtn: {
     cursor: "pointer",
     fontSize: "20px",
